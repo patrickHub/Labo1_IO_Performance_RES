@@ -1,0 +1,16 @@
+Write,BlockByBlockWithBufferedStream,10485760,500,25
+Write,BlockByBlockWithBufferedStream,10485760,50,42
+Write,BlockByBlockWithBufferedStream,10485760,5,80
+Write,ByteByByteWithBufferedStream,10485760,0,193
+Write,BlockByBlockWithoutBufferedStream,10485760,500,83
+Write,BlockByBlockWithoutBufferedStream,10485760,50,471
+Write,BlockByBlockWithoutBufferedStream,10485760,5,4523
+Write,ByteByByteWithoutBufferedStream,10485760,0,21519
+Read,BlockByBlockWithBufferedStream,10485760,500,19
+Read,BlockByBlockWithBufferedStream,10485760,50,30
+Read,BlockByBlockWithBufferedStream,10485760,5,54
+Read,ByteByByteWithBufferedStream,10485760,0,72
+Read,BlockByBlockWithoutBufferedStream,10485760,500,61
+Read,BlockByBlockWithoutBufferedStream,10485760,50,438
+Read,BlockByBlockWithoutBufferedStream,10485760,5,4032
+Read,ByteByByteWithoutBufferedStream,10485760,0,18741
